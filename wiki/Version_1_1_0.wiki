@@ -1,11 +1,11 @@
-#summary Version 1.1.0 of the Landsat spectral-indices software.
+#summary Version 1.1.0 of the Landsat spectral indices software.
 
 == SCA Version 1.1.0 Release Notes ==
 Release Date: May 9, 2013
 
 === Downloads ===
 
-* SCA source code - available via the [http://code.google.com/p/spectral-indices/source/checkout spectral-indices Google Projects Source] link
+* SCA source code - available via the [https://code.google.com/p/spectral-indices/source/checkout spectral-indices Google Projects Source] link
 
 === Installation ===
 Same installation instructions as for Version 1.0.0
