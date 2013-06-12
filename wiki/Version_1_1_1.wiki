@@ -1,19 +1,29 @@
-#summary One-sentence summary of this page.
+#summary Version 1.1.1 of the Landsat spectral indices software.
 
-= Introduction =
+== Spectral Indices Version 1.1.1 Release Notes ==
+Release Date: June 12, 2013
 
-Add your content here.
+=== Downloads ===
+
+* Spectral indices source code - available via the [https://code.google.com/p/spectral-indices/source/checkout spectral-indices Google Projects Source] link
+
+=== Installation ===
+Same installation instructions as for Version 1.0.0
+
+=== Dependencies ===
+Same dependencies as for Version 1.0.0
+
+=== Associated Scripts ===
+Same scripts as for Version 1.0.0, updated for 1.1.1.
+
+=== Verification Data ===
+
+=== User Manual ===
+
+=== Product Guide ===
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-
-Modified the output filename convention to remove the "-sr" from the filename,
-as this application works with both surface reflectance and TOA reflectance
-products.
+== Changes From Previous Version ==
+====Updates on June 12, 2013 - USGS EROS====
+  * src
+    # Modified the output filename convention to remove the "-sr" from the filename, as this application works with both surface reflectance and TOA reflectance products.
