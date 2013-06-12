@@ -25,5 +25,8 @@ Same scripts as for Version 1.0.0, updated for 1.1.1.
 
 == Changes From Previous Version ==
 ====Updates on June 12, 2013 - USGS EROS====
+  * general
+    # Added a license file for this software.
+
   * src
     # Modified the output filename convention to remove the "-sr" from the filename, as this application works with both surface reflectance and TOA reflectance products.
