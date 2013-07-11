@@ -21,7 +21,7 @@ Release Date: April 12, 2013
     export HDFLIB="path_to_HDF_libraries"
     export HDFEOS_INC="path_to_HDFEOS_include_files"
     export HDFEOS_LIB="path_to_HDFEOS_libraries"
-    export BIN="path_to_directory_for_LEDAPS_binaries"
+    export BIN="path_to_directory_for_spectral_indices_binaries"
 }}}
   # Checkout (from Google spectral-indices project) and install source files
 {{{
@@ -31,13 +31,13 @@ make install
 make clean
 }}}
 This will create an executable file under $BIN: spectral-indices
-(tested in Linux with the gcc compiler)
+(tested in Linux with the gcc compiler).  It will also copy the Python scripts for running spectral indices from the scripts directory up the the $BIN directory.
 
 * Note that if the HDF library was configured and built with szip support, then the user will also need to add "-L$(SZIPLIB) -lsz" at the end of the library defines in the Makefiles.  The user should also add "-I$(SZIPINC)" to the include directory defines in the Makefile.
 
-  #: Test - Download Landsat surface reflectance products (lndsr) from ESPA.  Then run the following command.
+  #: Test - Download Landsat surface reflectance products (lndsr) or top of atmosphere products (lndcal) from ESPA.  Then run the following command.
 {{{
-spectral_indices --sr=lndsr.*.hdf --ndvi --ndmi --nbr --nbr2 --savi --evi --verbose
+spectral_indices --sr={lndsr|lndcal}.*.hdf --ndvi --ndmi --nbr --nbr2 --savi --evi --verbose
 }}}
 If particular spectral index products are not desired, then don't include the --{spectral_index_product} command-line option.
 
