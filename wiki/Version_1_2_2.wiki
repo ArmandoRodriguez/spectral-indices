@@ -1,7 +1,7 @@
-#summary Version 1.2.2 of the Landsat spectral indices software.
+#summary Version 1.2.0 of the Landsat spectral indices software.
 
-== Spectral Indices Version 1.2.2 Release Notes ==
-Release Date: August 30, 2013
+== Spectral Indices Version 1.2.0 Release Notes ==
+Release Date: November 13, 2013
 
 === Downloads ===
 
@@ -14,7 +14,7 @@ Same installation instructions as for Version 1.0.0
 Same dependencies as for Version 1.0.0
 
 === Associated Scripts ===
-Same scripts as for Version 1.0.0, updated for 1.2.2.
+Same scripts as for Version 1.0.0, updated for 1.2.0.
 
 === Verification Data ===
 
@@ -24,6 +24,6 @@ Same scripts as for Version 1.0.0, updated for 1.2.2.
 
 
 == Changes From Previous Version ==
-====Updates on August 30, 2013 - USGS EROS====
+====Updates on November 13, 2013 - USGS EROS====
   * src
     # Modified the application to write out all the vegetation indices (NDVI, EVI, SAVI, MSAVI) to the same output file, containing multiple bands.  As with previous releases, only the user-specified indices will be written.  And, the other indices (NBR, NBR2, NDMI) are still written to their own output file as single bands.
