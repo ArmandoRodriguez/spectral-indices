@@ -7,6 +7,9 @@ Release Date: November 13, 2013
 
 * Spectral indices source code - available via the [https://code.google.com/p/spectral-indices/source/checkout spectral-indices Google Projects Source] link
 
+  * Non-members may check out a read-only working copy anonymously over HTTP.
+  * svn checkout http://spectral-indices.googlecode.com/svn/tags/version_1.2.0 spectral-indices-read-only 
+
 === Installation ===
 Same installation instructions as for Version 1.0.0
 
